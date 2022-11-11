@@ -10,6 +10,7 @@ const PORT = 3000;
 app.get('/ping',(_req,res)=>{
     console.log("someone pinged here! " + new Date().toLocaleDateString() );
     res.send('pong');
+    console.log("No se lo que quieras"); 
     
 });
 
